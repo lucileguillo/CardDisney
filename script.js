@@ -20,7 +20,7 @@ let MechantDisney = [
     },
     {
         nom : "Mère Gothel",
-        image : "images/Mère-Gothel.jpeg",
+        image : "images/Mere-Gothel.jpeg",
         age : 79,
         pouvoir: ["Ne veut pas voir le temps passer", "Coiffeuse", "Manipulatrice"],
         humeur: "Super calme… tant qu’on ne parle pas de ses rides, de ses cheveux, ou de Raiponce.",
@@ -78,7 +78,7 @@ let MechantDisney = [
     },
     {
         nom : "La Méchante Reine",
-        image : "images/Méchante-Reine.png",
+        image : "images/Mechante-Reine.png",
         age : 31,
         pouvoir: ["Narcissique", "Pomme empoisonnée", "Obsession"],
         humeur: "Toujours un peu stressée, mais un bon coup de miroir et elle se sent prête à tuer pour un peu de reconnaissance.",
