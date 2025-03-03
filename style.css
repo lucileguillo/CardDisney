@@ -1,0 +1,105 @@
+.Card {
+    display: flex;
+    border:solid 2px rgb(0, 0, 0);
+    justify-content: space-around;
+}
+
+main{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: space-evenly;
+}
+
+.principal {
+    text-align: center;
+    align-self: center;
+    margin: 2%;
+    width: 60ch;
+    margin: 3rem;
+}
+
+
+h1{
+    color:rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: "flegrei", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+span{
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li{
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    color: #AAC4DF;
+}
+
+img {
+    width:30ch;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+#changerVue{
+    position: sticky;
+    z-index: 1000;
+    top: 20px;
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.petit-format {
+    width: 30vw;
+}
+
+.grand-format {
+    margin-left: 5%;   
+    width: 45rem;
+}
+
+
+.carrousel{ 
+    flex-wrap: nowrap;
+    overflow: scroll;
+    justify-content: left;
+}
+
+.mosaique{
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.petit-format .informations{
+    display: none;
+}
+
+.informations{
+    margin-right: 5ch;
+}
